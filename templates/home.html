@@ -1,0 +1,298 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Hey!! Welcome To NIVEUS</h1>
+        <h1 class="hero-title">We <span><3 </span> people who code</h1>
+        <p class="hero-paragraph">
+           We Solve For You With Google Cloud
+        </p>
+        <div class="hero-options">
+            <a href="#" class="btn btn-developers">Data Modernization</a>
+            <a href="#" class="btn btn-developers">Infra Modernization</a>
+            <a href="#" class="btn btn-businesses">Solution Architect</a>
+            <a href="#" class="btn btn-developers">App Modernization</a>
+            <a href="{% url 'datainfo:question_list' %}" class="btn btn-developers" style="margin-left: 5px;">Latest Questions</a>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="for-developers">
+   <div class="container">
+       <div class="section-head">
+           <h2 class="section-title">For Passion, by Techies
+           </h2>
+           <div class="section-line"></div>
+           <p class="section-description">An award-winning <a href="#">Google Cloud Premier Partner in India</a> Niveus is solving complex business problems with future-ready solutions that are powered by GCP.
+           </p>
+       </div>
+   </div>
+</section>
+
+<section class="for-businesses">
+    <div class="container">
+        <div class="section-head">
+            <h2 class="section-title">Dream Big, Achieve Great</h2>
+            <div class="section-line"></div>
+            <p class="section-description">Niveus Solutions Pvt. Ltd. is a boot-strapped cloud engineering services organization founded by Suyog Shetty, Rashmi George, Roshan Bava, and Mohsin Khan in Karnataka, India</p>
+        </div>
+
+
+
+        <div class="options">
+            <div class="option">
+                <div class="option-icon">
+                    <img src="https://cdn.sstatic.net/Img/home/private-questions.svg?v=a4f1cfb08f7e" alt="Private Q&A">
+                </div>
+                <div class="option-description">
+                    Quickly find and share internal knowledge with <a href="#" class="option-link">Private Q&A</a>
+                </div>
+            </div>
+            <div class="option">
+                <div class="option-icon">
+                    <img src="https://cdn.sstatic.net/Img/home/find-candidate.svg?v=9099aa106ad3" alt="Talent solutions">
+                </div>
+                <div class="option-description">
+                    Find the perfect candidate for your growing technical team with <a href="#" class="option-link">Talent solutions</a>
+
+
+                </div>
+            </div>
+            <div class="option">
+                <div class="option-icon">
+                    <img src="https://cdn.sstatic.net/Img/home/accelerate.svg?v=9d4c2786ff02" alt=" Advertising platform">
+                </div>
+                <div class="option-description">
+                    Accelerate the discovery of your products or services through our <a href="#" class="option-link">Advertising platform</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+<section class="teams">
+    <div class="container">
+        <div class="teams-head">
+            <h2 class="teams-title">Unlock soild knowledge with team members
+            </h2>
+            <p class="teams-description">Our question and answer format is a proven approach for accessing the right information in less time.
+            </p>
+            <div class="teams-details">
+                <a href="#" class="btn btn-orange">Learn More</a>
+            </div>
+        </div>
+
+        <div class="teams-plan">
+            <div class="card card-basic">
+                <div class="card-header">
+                    <h2 class="plan-type">Application modernization</h2>
+                    <p class="plan-description">Explore containerzation using kubernets</p>
+                </div>
+               <div class="card-body">
+                   <div class="plan-price">
+                       <div class="price">Solving problems for applications</div>
+                   </div>
+                   <div class="plan-features">
+                       <div class="plan-feature">
+                           <i class="far fa-calendar-alt"></i>
+                           <span class="plan-text">365 days 24 * 7</span>
+                       </div>
+                       <div class="plan-feature">
+                           <i class="fab fa-keycdn"></i>
+                           <span class="plan-text">Faster feature releases along tight budgets and stright timelines</span>
+                       </div>
+                       <div class="plan-feature">
+                           <i class="fas fa-archive"></i>
+                           <span class="plan-text">Building lean modular application</span>
+                       </div>
+                   </div>
+               </div>
+
+            </div>
+
+            <div class="card card-business">
+                <div class="card-most-used">
+                    <span>GCP PARTNER</span>
+                    <i class="fas fa-city"></i>
+                </div>
+                <div class="card-header">
+                    <h2 class="plan-type">Data Modernization</h2>
+                    <p class="plan-description">Re-Engineering and modernizing ETL Process</p>
+                </div>
+                <div class="card-body">
+                    <div class="plan-price">
+                        <div class="price">Solving for Data Modernization
+                        </div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="plan-feature">
+                            <i class="fas fa-key"></i>
+                            <span class="plan-text">Data warehouse management</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="far fa-chart-bar"></i>
+                            <span class="plan-text">Reporting and analytics</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="fas fa-plus-square"></i>
+                            <span class="plan-text">Priority customer support</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="fas fa-star"></i>
+                            <span class="plan-text">99.5% uptime
+</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="fas fa-plus"></i>
+                            <span class="plan-text">All the features of GCP cloud</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card card-enterprise">
+                <div class="card-header">
+                    <h2 class="plan-type">Infrastructure Modernization</h2>
+                    <p class="plan-description">VM migration,Hybrid cloud,Infrastructure as a code.
+                    </p>
+                </div>
+                <div class="card-body">
+                    <div class="plan-price">
+                        <div class="price">Solving for Infrastructure Modernization </div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="plan-feature">
+                            <i class="fas fa-key"></i>
+                            <span class="plan-text">SAP on google cloud</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="fas fa-mountain"></i>
+                            <span class="plan-text">Microsoft – Windows on Google cloud</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="fas fa-code"></i>
+                            <span class="plan-text">Application Migration to google cloud</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="fas fa-user"></i>
+                            <span class="plan-text">Intelligent operation using active assist</span>
+                        </div>
+                        <div class="plan-feature">
+                            <i class="fas fa-star"></i>
+                            <span class="plan-text">Backup and disaster recovery</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="questions">
+    <div class="container">
+       <div class="questions-content">
+           <div class="questions-header">
+               <h3 class="question-title">Questions are everywhere, answers are on NiveuX</h3>
+           </div>
+           <div class="questions-body">
+               <div class="questions-body-items">
+                   <div class="questions-body-item" data-id="0">
+                       <img src="https://cdn.sstatic.net/Img/home/ask-a-question.svg?v=f4f2050b0297" alt="" class="question-item-icon">
+                       <div class="question-item-text">Ask a question</div>
+                       <div class="question-arrow-right"></div>
+                   </div>
+                   <div class="questions-body-item"  data-id="1">
+                       <img src="https://cdn.sstatic.net/Img/home/votes.svg?v=748a8f48a8e2" alt="" class="question-item-icon">
+                       <div class="question-item-text">Vote on everything</div>
+                       <div class="question-arrow-right"></div>
+                   </div >
+                   <div class="questions-body-item"  data-id="2">
+                       <img src="https://cdn.sstatic.net/Img/home/answer.svg?v=4cd8048a676c" alt="" class="question-item-icon">
+                       <div class="question-item-text">Answer questions</div>
+                       <div class="question-arrow-right"></div>
+                   </div>
+               </div>
+               <div class="questions-body-item-content">
+                   <img src="https://cdn.sstatic.net/Img/home/illo-feats-vote.svg?v=9d2eb0efdc17" alt="" class="question-item-content-img">
+                   <h4 class="question-item-content-text">
+                       Accept the answer which solved your problem to let others benefit from the valuable information.
+                   </h4>
+                   <a href="https://niveussolutions.com/contact-us/" class="btn btn-orange question-item-content-btn">Contact</a>
+               </div>
+               <div class="questions-body-items">
+                   <div class="questions-body-item"  data-id="3">
+                       <img src="https://cdn.sstatic.net/Img/home/tags.svg?v=913379eb09eb" alt="" class="question-item-icon">
+                       <div class="question-item-text">Tag your question</div>
+                       <div class="question-arrow-left"></div>
+                   </div>
+                   <div class="questions-body-item"  data-id="4">
+                       <img src="https://cdn.sstatic.net/Img/home/accept.svg?v=27d5be078970" alt="" class="question-item-icon">
+                       <div class="question-item-text">Accept a answer</div>
+                       <div class="question-arrow-left"></div>
+                   </div>
+                   <div class="questions-body-item"  data-id="5">
+                       <img src="https://cdn.sstatic.net/Img/home/get-recognized.svg?v=3b339d9aa10c" alt="" class="question-item-icon">
+                       <div class="question-item-text">Get recognized</div>
+                       <div class="question-arrow-left"></div>
+                   </div>
+               </div>
+           </div>
+           <div class="questions-footer">
+               <h3 class="question-title">Learn and grow with Niveus Solutions</h3>
+               <div class="questions-grid">
+                   <div class="questions-grid-item">
+                       <div class="grid-item-img">
+                           <img src="https://cdn.sstatic.net/Img/home/developer.svg?v=b930de7967a7" alt="">
+                       </div>
+                       <h4 class="grid-item-title">Write the script of the future</h4>
+                       <p class="grid-item-description">Get your coding questions answered to learn, build, and level up whether you’re beginning with
+                           <a href="#">JavaScript</a> or a <a href="#">React</a> professional.
+                       </p>
+                   </div>
+                   <div class="questions-grid-item">
+                       <div class="grid-item-img">
+                           <img src="https://cdn.sstatic.net/Img/home/open-source.svg?v=847b604fd2ab" alt="">
+                       </div>
+                       <h4 class="grid-item-title">Support open source
+                       </h4>
+                       <p class="grid-item-description">Reach users of your project by following tags, answering newcomer questions, and empowering experts in the community.
+                           <a href="#"> Read the curl project creator’s story.</a>
+
+
+                       </p>
+                   </div>
+                   <div class="questions-grid-item">
+                       <div class="grid-item-img">
+                           <img src="https://cdn.sstatic.net/Img/home/advocate.svg?v=4b03cfb93502" alt="">
+                       </div>
+                       <h4 class="grid-item-title">Acquire and share knowledge
+                       </h4>
+                       <p class="grid-item-description">Answer questions and <a href="#">gain insights</a> from an audience of developers using your technology on Stack Overflow.
+                       </p>
+                   </div>
+                   <div class="questions-grid-item">
+                       <div class="grid-item-img">
+                           <img src="https://cdn.sstatic.net/Img/home/career-switcher.svg?v=a41416ff19df" alt="" >
+                       </div>
+                       <h4 class="grid-item-title">Find career opportunities
+                       </h4>
+                       <p class="grid-item-description">Create a profile that shows off your expertise and credentials to help you make your next move. Start your
+                           <a href="#">Developer Story</a>.
+                       </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+</section>
+
+{% endblock content %}
